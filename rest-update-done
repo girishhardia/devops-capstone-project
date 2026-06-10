@@ -2,7 +2,7 @@ curl -i -X PUT http://localhost:5000/accounts/1 \
   -H "Content-Type: application/json" \
   -d '{"name":"John Doe Updated","email":"john.updated@example.com","address":"123 Main St","phone_number":"555-9876"}'
 
-HTTP/1.0 200 OK
+HTTP/1.1 200 OK
 Content-Type: application/json
 Content-Length: 180
 Server: Werkzeug/2.3.0 Python/3.11.4

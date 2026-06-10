@@ -2,7 +2,7 @@ curl -i -X POST http://localhost:5000/accounts \
   -H "Content-Type: application/json" \
   -d '{"name":"John Doe","email":"john.doe@example.com","address":"123 Main St","phone_number":"555-1234"}'
 
-HTTP/1.0 201 CREATED
+HTTP/1.1 201 CREATED
 Content-Type: application/json
 Content-Length: 175
 Location: /
