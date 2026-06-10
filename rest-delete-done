@@ -1,0 +1,6 @@
+curl -i -X DELETE http://localhost:5000/accounts/1
+
+HTTP/1.0 204 NO CONTENT
+Content-Type: text/html; charset=utf-8
+Server: Werkzeug/2.3.0 Python/3.11.4
+Date: Sat, 06 Jun 2026 12:30:00 GMT
